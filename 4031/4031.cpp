@@ -11,7 +11,7 @@ int main()
 {
 
 	cv::Mat dstMat;
-	cv::Mat srcMat = cv::imread("D:\\360downloads\\1.jpg", 1);
+	cv::Mat srcMat = cv::imread("D:\\360downloads\\7.png", 1);
 
 	float angle = -10.0, scale = 1;
 	cv::Point2f center(srcMat.cols*0.5, srcMat.rows*0.5);
